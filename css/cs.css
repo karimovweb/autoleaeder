@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fed5c8;
+}
+
+.list {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.list li {
+  list-style-type: none;
+  width: 200px;
+  height: 200px;
+  opacity: .25;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background: #9C89B8;
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, -webkit-transform 1s;
+  -o-transition: transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s, -webkit-transform 1s;
+}
+
+.list .act {
+  opacity: 1;
+}
+
+.list .prev,
+.list .next {
+  cursor: pointer;
+}
+
+.list .prev {
+  -webkit-transform: translateX(-220px) scale(0.85);
+      -ms-transform: translateX(-220px) scale(0.85);
+          transform: translateX(-220px) scale(0.85);
+}
+
+.list .next {
+  -webkit-transform: translateX(220px) scale(0.85);
+      -ms-transform: translateX(220px) scale(0.85);
+          transform: translateX(220px) scale(0.85);
+}
+
+.list .hide {
+  -webkit-transform: translateX(-420px) scale(0.85);
+      -ms-transform: translateX(-420px) scale(0.85);
+          transform: translateX(-420px) scale(0.85);
+}
+
+.list .new-next {
+  -webkit-transform: translateX(420px) scale(0.85);
+      -ms-transform: translateX(420px) scale(0.85);
+          transform: translateX(420px) scale(0.85);
+}
+
+.list .hide,
+.list .new-next {
+  opacity: 0;
+  -webkit-transition: opacity .5s, -webkit-transform .5s;
+  transition: opacity .5s, -webkit-transform .5s;
+  -o-transition: opacity .5s, transform .5s;
+  transition: opacity .5s, transform .5s;
+  transition: opacity .5s, transform .5s, -webkit-transform .5s;
+}
+
+.swipe {
+  width: 270px;
+  height: 200px;
+  position: absolute;
+  background-color: green;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+}
+/*# sourceMappingURL=cs.css.map */
