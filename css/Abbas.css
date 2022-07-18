@@ -749,7 +749,7 @@ z-index: 8888;
 }
 
 .text--sub {
-	font-size: 12px;
+	font-size: 20px;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
 	margin-bottom: 40px;
@@ -941,7 +941,7 @@ h1,p,h2,h3,h4,h5,h6,span{
     height: 10px;
   }
   .header_abbas .logo {
-    font-size: 4vw;
+    font-size: 8vw;
   }
   .ov_inp {
     width: 40vw;
@@ -1087,8 +1087,8 @@ display: inline-block;
 
   .pokemon__img{
     margin-top: 30%;
-	height: 43vw;
-  margin-left: 50px;
+	  height: 50vw;
+    margin-left: 0px;
   }
   .table{
     top: 80px;
@@ -1332,7 +1332,6 @@ body .container12 .card .box .content a:hover {
 
 
 .icons{
-  background:#fff;
   display: flex;
   align-items: center;
   border-radius: .5rem;
