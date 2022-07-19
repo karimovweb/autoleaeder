@@ -1032,7 +1032,7 @@ display: inline-block;
   }
   .contact{
     font-weight: 500;
-    font-size: 2.6rem;
+    font-size: 2rem;
     letter-spacing: 1.5px;
   }
   .ov_inp {
@@ -1072,8 +1072,7 @@ display: inline-block;
     width: 100vw;
     height: 100vh;
     display: block;
-    object-fit: fill;
-    object-position: 50% 40%;   
+    object-fit: contain;
   }
   .video{
     display: none;
@@ -1095,8 +1094,8 @@ display: inline-block;
 
   .pokemon__img{
     margin-top: 30%;
-	  height: 50vw;
-    margin-left: 0px;
+	  height: 40vw;
+    margin-left: 10%;
   }
   .table{
     top: 80px;
@@ -1345,6 +1344,7 @@ body .container12 .card .box .content a:hover {
   border-radius: .5rem;
   padding:2rem;
   gap:1.5rem;
+  overflow: visible;
 }
 .icons:hover  {
   cursor: pointer;
@@ -1354,7 +1354,7 @@ body .container12 .card .box .content a:hover {
   width: 5rem;
   height: 5rem;
   line-height:5rem;
-  font-size:2.5rem;
+  font-size:2rem;
   color: black;
   text-align: center;
   border-radius: 50%;
@@ -1375,7 +1375,7 @@ body .container12 .card .box .content a:hover {
   color:var(--black);
 }
  .icons .content p{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
 }
 

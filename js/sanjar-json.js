@@ -1,13 +1,13 @@
 ﻿var S = [
     {
         id:1,
-        name:'Mercedes Benz G500 <br> (G63 Body)',
+        name:'Mercedes Benz G500 <br/> (G63 Body)',
         img:'./images/gelik.png',
         rate: 5,
         sena:'230.000$',
         door:"418 л.с",
         seat:"39.674 км",
-        transmision:'4.0 л V8 Biturbo',
+        transmision:'4.0 л V8 ',
         age:2020,
         type: "pikap"
     },

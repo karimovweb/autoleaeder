@@ -49,7 +49,7 @@ function my(x){
                   <span class="spec">${S[j].seat}</span>
                 </li>
                 <li>
-                  <span>Объём двигателя</span>
+                  <span>Объём двигателя:</span>
                   <span class="spec">${S[j].transmision}</span>
                 </li>
                 <li>
