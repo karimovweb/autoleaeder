@@ -1075,7 +1075,7 @@ display: inline-block;
     width: 100vw;
     height: 100vh;
     display: block;
-    object-fit: contain;
+    object-fit: fill;
   }
   .video{
     display: none;
