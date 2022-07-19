@@ -62,7 +62,7 @@ function my(x){
                 </li>
               </ul>
               <div class="d-flex action">
-                <a href="contact.html#contact-section" class="btn btn-primary">Куить сейчас</a>
+                <a href="contact.html#contact-section" class="btn btn-primary">Куить</a>
               </div>
             </div>
           </div>
@@ -72,10 +72,10 @@ function my(x){
     for(var i=1;i<=Math.ceil(S.length/6);i++){
       if(x==i){
         document.querySelector('.pages11').innerHTML +=`
-        <li class="page-item"><a onclick='my(${i})' style="color:white; background:#777 ; "   class="page-link" href="#cards12">${i}</a></li>`
+        <li class="page-item"><a onclick='my(${i})' style="color:white; background:#777 ; transform:scale(0.9); border:none; border-radius: 5px; "   class="page-link" href="#cards12">${i}</a></li>`
       }else{
       document.querySelector('.pages11').innerHTML +=`
-      <li class="page-item"><a onclick='my(${i})' style="color:black;" class="page-link" href="#cards12">${i}</a></li>`}
+      <li class="page-item"><a onclick='my(${i})' style="color:black; transform:scale(1.1); " class="page-link" href="#cards12">${i}</a></li>`}
       }
 
 }

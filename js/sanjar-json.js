@@ -538,5 +538,72 @@
         seat:"4 км",
         transmision:' 4.0 л',
         age:2022 
+    },
+    {
+        id:49,
+        name:'Bmw 535 xDrive F10',
+        img:'./images/photo_2022-07-19_20-15-28-removebg-preview.png',
+        rate: 5,
+        sena:'43.000$',
+        door:"400  л.с",
+        seat:"133.319 км",
+        transmision:'3.0 л (Twin Turbo)',
+        age:2011 
+    },
+    {
+        id:40,
+        name:'🔋 Volkswagen ID 4 Pure +',
+        img:'./images/photo_2022-07-16_12-03-28-removebg-preview.png',
+        rate: 5,
+        sena:'70.000$',
+        door:"77 kWh",
+        seat:"521  км",
+        transmision:'220 кВт',
+        age:2021
+    },
+    {
+        id:39,
+        name:'BYD Tang Ev 600',
+        img:'./images/photo_2022-07-16_12-03-23-removebg-preview.png',
+        rate: 5,
+        sena:'70.000$',
+        door:"482  л.с",
+        seat:"248 км",
+        transmision:'82.8 кв/ч',
+        age:2020
+    },
+    {
+        id:32,
+        name:'Mercedes Benz GLC 300e Coupe',
+        img:'./images/photo_2022-07-11_19-10-05-removebg-preview.png',
+        rate: 5,
+        sena:'95.000$',
+        door:"211 л.с",
+        seat:"1.009 км",
+        transmision:'2.0л, електро : 90кВт',
+        age:2021
+    },
+    {
+        id:22,
+        name:'Hyundai Sonata',
+        img:'./images/photo_2022-07-11_18-08-19-removebg-preview.png',
+        rate: 5,
+        sena:'37.000$',
+        door:"180 л.с",
+        seat:"16.657  км",
+        transmision:'2.5 л',
+        age:2020
+    },
+    {
+        id:11,
+        name:'KIA K8 ',
+        img:'./images/k8.png',
+        rate: 5,
+        sena:'79.000$',
+        door:"300 л.с.",
+        seat:"Без пробег",
+        transmision:'3.5л V6',
+        age:2022,
+        type: "sedan"
     }
 ]
