@@ -9,7 +9,6 @@
         seat:"39.674 км",
         transmision:'4.0 л V8 ',
         age:2020,
-        type: "pikap"
     },
     {
         id:2,
@@ -21,7 +20,6 @@
         seat:"21.620  км",
         transmision:'5.6л V8',
         age:2019,
-        type: "pikap"
     },
     {
         id:3,
@@ -33,7 +31,6 @@
         seat:"1.983 км",
         transmision:'2.0 л',
         age:2020,
-        type: "cupe"
     },
     {
         id: 4,
@@ -45,7 +42,6 @@
         seat: '36.880 км',
         transmision:'2.0 л Турбо',
         age: 2020,
-        type: "pikap"
     },
     {
         id:5,
@@ -57,7 +53,6 @@
         seat:"1.738 км",
         transmision:'379 л.с',
         age:2021,
-        type: "xetbek"
     },
     {
         id:6,
@@ -69,7 +64,6 @@
         seat: ' Без пробег',
         transmision:'2.7 л',
         age:2022,
-        type: "pikap"
     },
     {
         id: 7,
@@ -81,7 +75,6 @@
         seat: ' 28.684 км',
         transmision:'245 л.с',
         age: 2019,
-        type: "pikap"
     },
     {
         id:8,
@@ -93,7 +86,6 @@
         seat:"3.254км",
         transmision:'3.8л V6',
         age:2020,
-        type: "pikap"
     },
     {
         id:9,
@@ -105,7 +97,6 @@
         seat:" 52.433 км",
         transmision:'380 л.с',
         age:2018,
-        type: "pikap"
     },
     {
         id:10,
@@ -117,7 +108,6 @@
         seat:"22.500км",
         transmision:'300 кВт',
         age:2022,
-        type: "xetbek"
     },
     {
         id:11,
@@ -129,7 +119,6 @@
         seat:"Без пробег",
         transmision:'3.5л V6',
         age:2022,
-        type: "sedan"
     },
     {
         id:12,
@@ -141,7 +130,6 @@
         seat:"77 км",
         transmision:'326 Hp',
         age:2021,
-        type: "pikap"
     },
     {
         id:13,
@@ -604,6 +592,5 @@
         seat:"Без пробег",
         transmision:'3.5л V6',
         age:2022,
-        type: "sedan"
     }
 ]

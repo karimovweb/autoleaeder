@@ -26,7 +26,7 @@ function my(x){
         document.querySelector('.cards12').innerHTML+= ` 
         <div class="card" id="cards12">
         <div class="item-1">
-            <a><img style="height:285px;width:100%" src="${S[j].img}" alt="Image2" class="img-fluid img-fluid1"></a>
+            <a><img style="height:285px;width:100%" src="${S[j].img}"  alt="Image2" class="img-fluid img-fluid1 img-fluid19"/></a>
             <div class="item-1-contents">
               <div class="text-center">
               <h3><a class"a">${S[j].name}</a></h3>
