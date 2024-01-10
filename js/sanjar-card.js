@@ -62,7 +62,7 @@ function my(x){
                 </li>
               </ul>
               <div class="d-flex action">
-                <a href="contact.html#contact-section" class="btn btn-primary">Куить</a>
+                <a href="book.html#contact-section" class="btn btn-primary">Купить</a>
               </div>
             </div>
           </div>
